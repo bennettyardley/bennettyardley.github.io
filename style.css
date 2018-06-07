@@ -1,0 +1,123 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+html, body {
+    margin:0;
+    padding:0;
+}
+p#sidebartext {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+p#contenttext {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+p#contenttitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 
+}
+p#copyrite {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+h {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+img {
+    padding: 10px;
+}
+.sidebar {
+    background-color: #2c3e50;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+.content {
+    margin-left: 300px;
+    padding: 0px 10px;
+    font-size: 28px;
+    background-color: #43A047;
+    height: 100%;
+    display: block;
+    overflow: auto;
+}
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.social-icon {
+    color: #fff;
+    font-size: 30pt;
+}
+ul {
+    padding:10px;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-github:hover {
+    background-color: #6cc644;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-linkedin:hover {
+    background-color: #4875B4;
+}
+.fa-twitter {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+}
+.fa-envelope {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-envelope:hover {
+    background-color: #e67e22;
+}
+ul#social li {
+    display: inline;
+}
